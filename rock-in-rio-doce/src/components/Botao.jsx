@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 
-
 export default function Botao(){
     let [contagem ,setContagem] = useState(0)
     function contar (){

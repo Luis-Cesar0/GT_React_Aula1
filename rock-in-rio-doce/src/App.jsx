@@ -1,7 +1,7 @@
 import Cartao from './components/Cartao'
 import Botao from './components/Botao'
 import TesteEstado from './components/TesteEstado'
-
+import Layout from './pages/Layout'
 import './App.css'
 
 
@@ -16,10 +16,11 @@ function App() {
   
   return (
     <>
-      
+      <Layout/>
+      {/* <h1>oi</h1>
       <TesteEstado/>
       <Botao/>
-      <Cartao nome={pessoa.nome} img={pessoa.img} desc={pessoa.descricao}/>
+      <Cartao nome={pessoa.nome} img={pessoa.img} desc={pessoa.descricao}/> */}
      
     </>
   )
